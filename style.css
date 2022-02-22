@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-image: url("./images/bg-hero-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: rgb(158, 203, 224);
+    background-size: cover;
+    height: 90vh;
+}
+
+.container header img{
+    width: 160px;
+}
+
+.container header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.container header button{
+    height: 30px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 12px;
+    background-color: rgb(240, 238, 231);
+    cursor: pointer;
+}
+
+.container header button:hover{
+    background-color: rgb(228, 122, 192);
+    color: white;
+    cursor: pointer;
+}
+
+.secondcontainer{
+   margin-left: 70px;
+   margin-top: 40px;
+   display: flex;
+}
+
+.about h1{
+    line-height: 50px;
+    margin-top: 55px;
+    font-size: 35px;
+    color: rgb(39, 38, 38);
+}
+
+.about p{  
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 100px;
+    line-height: 20px;
+    color: rgb(39, 38, 38);
+}
+
+.about button{
+    margin-top: 30px;
+    height: 40px;
+    width: 180px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 11px;
+    background-color: #fc2ce4da;
+    cursor: pointer;
+}
+
+.about button:hover{
+    background-color: #be18ab;
+    color: white;
+    cursor: pointer;
+}
+
+.imagechat{
+    width: 560px;
+    height: 410px;
+    margin: 0 100px 30px 40px;
+  
+}
+
+.big-container{
+    display: block;
+}
+
+.thirdcontainer{
+    display: flex;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    margin: 40px 140px 50px 140px;
+    padding: 30px 40px 20px 40px;
+}
+
+.text-3 h2{
+    font-size: 26px;
+    letter-spacing: 2px;
+    padding: 60px 30px 10px 60px;
+    color: rgb(39, 38, 38);
+}
+
+.text-3 p{
+    font-size: 15px;
+    font-style: normal;
+    padding: 10px 50px 10px 60px;
+    color: gray;
+}
+
+.people-talking{
+    width: 300px;
+    margin: 30px 40px 10px 30px;
+}
+
+.forthcontainer{
+    display: flex;
+    flex-direction: row-reverse;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    margin: 40px 140px 50px 140px;
+    padding: 30px 40px 20px 40px;
+}
+
+.people-conversation{
+    width: 300px;
+    margin: 30px 30px 20px 40px;
+}
+
+.text-4 h2{
+    font-size: 26px;
+    letter-spacing: 2px;
+    padding: 60px 70px 0 60px;
+    color: rgb(39, 38, 38);
+}
+
+.text-4 p{
+    font-size: 15px;
+    font-style: normal;
+    padding: 10px 50px 10px 60px;
+    color: gray;
+}
+
+
+.Huddle-users{
+    width: 300px;
+    margin: 30px 30px 0 40px;
+}
+
+.fifithcontiner{
+    display: flex;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    margin: 40px 140px 50px 140px;
+    padding: 30px 40px 20px 40px;
+}
+
+.text-5 h2{
+    font-size: 26px;
+    letter-spacing: 2px;
+    padding: 60px 30px 10px 60px;
+    color: rgb(39, 38, 38);
+}
+
+.text-5 p{
+    font-size: 15px;
+    font-style: normal;
+    padding: 10px 50px 10px 60px;
+    color: gray;
+}
+
+.Huddle-users{
+    width: 300px;
+    margin: 30px 40px 10px 30px;
+}
+
+.bottom-box{
+    text-align: center;
+    display: block;
+    margin: 90px 360px 20px 360px;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    padding: 70px 0 30px 0;
+    position: relative;
+    margin-bottom: -75px;
+    background-color: white;
+}
+
+.bottom-box button{
+    margin-top: 20px;
+    height: 40px;
+    width: 180px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 11px;
+    background-color: #fc2ce4da;
+    cursor: pointer;
+}
+
+.bottom-box button:hover{
+    height: 42px;
+    width: 182px;
+    background-color: #be18ab;
+    color: white;
+    cursor: pointer;   
+}
+
+footer{
+    background-color: rgb(17, 51, 61);
+    height: 40vh;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 220px;
+    color: white;
+}
